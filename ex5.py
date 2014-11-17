@@ -27,3 +27,17 @@ print "His teeth are usually %s depending on the coffee." % my_teeth
 
 # this line is tricky, try to get it exactly right
 print "If I add %d, %d, and %d I get %d. " %(my_age, my_height,my_weight,my_age + my_height + my_weight)
+
+
+# Drills
+
+inch = 5
+inch_to_cm = 2.54
+
+print "%d inch is" % inch,  inch * inch_to_cm, " cm."
+
+pound = 170
+pound_to_kg = 0.453592
+
+print "%d pound is" % pound, pound * pound_to_kg, " kg."
+
