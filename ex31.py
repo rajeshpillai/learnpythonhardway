@@ -10,3 +10,11 @@
 # weights = [1, 2, 3, 4]
 # You start the list with the [ (left bracket) which "opens" the list. Then you put each item you want in the list separated by commas, similar to function arguments. Lastly, end the list with a ] (right bracket) to indicate that it's over. Python then takes this list and all its contents and assigns them to the variable.
 
+the_count = [1,2,3,4,5]
+fruits = ['apples', 'oranges','pears','apricots']
+change = [1,'pennies',2,'dimes',3,'quarters']
+
+# this first kind of for-loop goes through a list
+for number in the_count:
+	print "This is count %d" % number
+
